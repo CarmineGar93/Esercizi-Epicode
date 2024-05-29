@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    margin: 0;
+    height: 100vh;
+}
+
+#main {
+    width:100%
+}
+
+#content {
+    height: 100%;
+    display: flex;
+    padding: 4em 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-icon {
+    padding: 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.sidebar-icon p {
+    margin: 0;
+    cursor: pointer;
+}
+
+.sidebar-icon ion-icon {
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#topbar {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    height: 50%;
+    padding-right: 1em;
+    
+}
+
+#search-wrapper {
+    display: flex;
+    height: 50%;
+}
+
+#topbar-icons {
+    display: flex;
+
+}
+
+.topbar-icon ion-icon {
+    font-size: 2.0em;
+    padding: 0 0.5em;
+    cursor: pointer;
+}
+
+#mic-icon ion-icon {
+    font-size: 2em;
+    padding: 0 0.3em;
+    cursor: pointer;
+}
+
+#search-btn {
+    padding: 0 0.4em;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mic-icon {
+    display: flex;
+    align-items: center;
+}
+#text-field {
+    width: 25vw;
+    padding-left: 1em;
+}
+
+.thumb-block {
+    width: 30%;
+    min-width: 400px;
+    padding: 0 0.5em;
+}
+
+.thumb-img {
+    width: 100%;
+    cursor: pointer;
+    
+}
+
+.title-block {
+    height: 10%;
+    display: flex;
+    padding: 0.4em 0;
+}
+
+.title-block img {
+    height: 100%;
+    cursor: pointer;
+}
+
+.description-block {
+    height: 100%;
+    padding: 0 0.8em;
+    
+}
+
+.description-block p,h3 {
+    margin: 0;
+}
+
+.description-block h3 {
+    cursor: pointer;
+}
